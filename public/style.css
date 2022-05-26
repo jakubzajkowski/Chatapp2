@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 24, 41);
+}
+.container{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+.name_container{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.name{
+    width: 80%;
+    padding: 1%;
+    position: relative;
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+}
+.but_name{
+    width: 10%;
+    padding: 1%;
+    position: relative;
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.mess_container{
+    height: 85vh;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.right{
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    padding: 1%;
+    margin: 0 3% 0 0 ;
+}
+.mess_right{
+    border: 2px solid white;
+    padding: 1%;
+    border-radius: 10px;
+}
+.mess_left{
+    border: 2px solid white;
+    padding: 1%;
+    border-radius: 10px;
+}
+.left{
+    color: white;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    justify-content: left;
+}
+.input{
+    width: 80%;
+    padding: 1%;
+    position: relative;
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.but{
+    width: 10%;
+    padding: 1%;
+    position: relative;
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
